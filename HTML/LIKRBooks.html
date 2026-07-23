@@ -10,25 +10,42 @@
     width: 100%;
     gap: 8px;
   }
+
   .mobile-row a {
-    flex: 1; /* Forces all 4 slots to keep equal size */
+    flex: 1; /* Forces all 3 book slots to keep equal size */
     display: block;
   }
+
   .mobile-row img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 4px; /* Optional rounded edges */
+    border-radius: 4px;
+  }
+
+  /* Full-width character art underneath */
+  .character-art {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .character-art img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 </style>
 </head>
+
 <body>
 
+<!-- Book Covers -->
 <div class="mobile-row">
-  <!-- LIKP-->
+
+  <!-- LIKP -->
   <a href="https://books.imogenknowed.com/7zj41v7895" target="_blank">
-     <img src="https://imogenknowed.github.io/WebAssets/BookCovers/LIKP.png" 
-     alt="Love is Knot Predictable">
+    <img src="https://imogenknowed.github.io/WebAssets/BookCovers/LIKP.png" 
+    alt="Love is Knot Predictable">
   </a>
   
   <!-- LIKE -->
@@ -42,6 +59,13 @@
     <img src="https://imogenknowed.github.io/WebAssets/BookCovers/LIKC.png" 
     alt="Love is Knot Controllable">
   </a>
+
+</div>
+
+<!-- Character Art -->
+<div class="character-art">
+  <img src="https://imogenknowed.github.io/WebAssets/CharacterArt/LIKRCharacters.png"
+  alt="Characters">
 </div>
 
 </body>
