@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .mobile-row {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .mobile-row a,
+  .mobile-row .image-slot {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-row img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+
+  /* Makes first image 75% the size of the second */
+  .mobile-row .small-img {
+    width: 75%;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="mobile-row">
+
+  <!-- PPP (smaller) -->
+  <a href="https://books.imogenknowed.com/hzd3ehzjk5" target="_blank">
+    <img class="small-img"
+    src="https://imogenknowed.github.io/WebAssets/BookCovers/PPP.png" 
+    alt="Passion, Purrs, & Punk">
+  </a>
+
+  <!-- Character (no link, full size) -->
+  <div class="image-slot">
+    <img src="https://imogenknowed.github.io/WebAssets/CharacterArt/PPPCharacters.png" 
+    alt="Characters">
+  </div>
+
+</div>
+
+</body>
+</html>

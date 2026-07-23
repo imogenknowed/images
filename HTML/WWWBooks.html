@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .mobile-row {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+  }
+
+  .mobile-row a,
+  .mobile-row .image-slot {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-row img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+
+  /* Makes second and third images 75% the size of the first */
+  .mobile-row .small-img {
+    width: 75%;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="mobile-row">
+
+  <!-- Characters (no link) -->
+  <div class="image-slot">
+    <img src="https://imogenknowed.github.io/WebAssets/CharacterArt/WWWCharacters.png" 
+    alt="Characters">
+  </div>
+
+  <!-- Wine -->
+  <a href="https://books.imogenknowed.com/ftvv3bb27b" target="_blank">
+    <img class="small-img" 
+    src="https://imogenknowed.github.io/WebAssets/BookCovers/WWW.png" 
+    alt="Whispers, Whiskers, & Wine">
+  </a>
+
+  <!-- Wedding -->
+  <a href="https://books.imogenknowed.com/4w2vig74eo" target="_blank">
+    <img class="small-img"
+    src="https://imogenknowed.github.io/WebAssets/BookCovers/WWWed.png" 
+    alt="Whispers, Whiskers, & Wedding Night">
+  </a>
+
+</div>
+
+</body>
+</html>
